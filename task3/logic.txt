@@ -1,0 +1,9 @@
+Here I have written the logic of how I would try to solve the part 1 .But I could not complete.
+
+first initialize total four lists to store x and y co ordinates for the two trees.
+then generate a random number on the image.
+find nearest node on tree to the random point
+get the new node and check if the path intersects a obstacle
+in a circle of radius of value defined by us and new node as centre , check he nodes in the search radius for shorter path to the new node and update
+our list of distances from the start to the new node.
+join the two nodes on both trees which give the shortest distance to the final point.
