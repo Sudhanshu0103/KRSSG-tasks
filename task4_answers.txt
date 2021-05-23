@@ -1,0 +1,12 @@
+I was able to change reward policy and run the file.
+ 
+-Observations in re-inforcement learning give us what our acions are doing to our environment.
+The observation object returned by the get_obs function is a list of three values. It gives cosine(theta) ,sine(theta) and angular velocity which is 'thetadot'.
+
+-The get_obs function returns three observations which are the cosine(theta) ,sine(theta) and the third part is the theta dot which is the angular velocity of the pendulum.
+
+-The term theta or self.state[1] corresponds to the angular velocity of the pendulum.
+
+-This is a continuous action as the angular velocity is a real number and the pendulum flows continuously and not in discrete values. 
+
+-The costs is a function of theta to the power 2 , angular velocity to the power 2 and action to the power of 2 and the respective weightages of above terms are 1 ,0.1 and 0.001.
